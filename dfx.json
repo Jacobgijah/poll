@@ -8,8 +8,12 @@
       "dependencies": [
         "poll_backend"
       ],
+      "frontend": {
+        "entrypoint": "src/poll_frontend/src/index.html"
+      },
       "source": [
-        "src/poll_frontend/assets"
+        "src/poll_frontend/assets",
+        "dist/poll_frontend/"
       ],
       "type": "assets"
     }
